@@ -1,0 +1,30 @@
+.home-intro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-around
+}
+
+.intro-img{
+    height: 300px;
+    border-radius: 10px;
+}
+
+.info-text{
+    width: 300px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.book-btn{
+    border: 1px solid gray;
+    padding: 5px 10px;
+    background-color: orange;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.book-btn:hover{
+    border-radius: 20px;
+}
