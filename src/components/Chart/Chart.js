@@ -74,7 +74,7 @@ const Chart = () => {
             >
                 <CartesianGrid stroke="#f5f5f5" />
                 <XAxis dataKey="name" scale="band" />
-                <YAxis />
+                <YAxis dataKey='amt' />
                 <Tooltip />
                 <Legend />
                 <Area type="monotone" dataKey="amt" fill="#8884d8" stroke="#8884d8" />
