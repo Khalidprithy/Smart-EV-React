@@ -3,70 +3,70 @@
         "id": 1,
         "image": "https://i.postimg.cc/7h6HyNv9/user-1.jpg",
         "name": "Perry Pudan",
-        "text": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+        "text": "The Ioniq 5 uses natural materials for their car, which can reduse the co2 produced at the moment of building it",
         "rating": 5
     },
     {
         "id": 2,
         "image": "https://i.postimg.cc/CMQYqkpy/user-1.png",
         "name": "Chicky Adamovitz",
-        "text": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+        "text": "Really good evaluation. Oh and the Electric Grid cannot handle the production of Wind and Solar Energy (mostly Upper Midwest and Western production) to where the energy needs to be in all Cases, like the East Coast and East of the Mississippi. So there is an electric grid infrastructure problem to transition to renewables. EV's have less of a Climate Chaos Impact, the problem is that they still have a Significant Impact",
         "rating": 4
     },
     {
         "id": 3,
         "image": "https://i.postimg.cc/P5xdpyPk/user-2.jpg",
         "name": "Camala Yakobovitz",
-        "text": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+        "text": "When temperatures drop below 20F, batteries lose 40% of their power.  Where I live in NW Alberta, temps drop below -40.  What do you think is going to happen to those batteries at -40?",
         "rating": 1
     },
     {
         "id": 4,
         "image": "https://i.postimg.cc/ZRDk6tgP/user-3.jpg",
         "name": "Laurena Cahillane",
-        "text": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+        "text": "If I have to drive an EV to work so I can drive my SS on the weekend I’m fine with that. I like the idea of EV’s but not the limitations.",
         "rating": 3
     },
     {
         "id": 5,
         "image": "https://i.postimg.cc/9MTmXfzR/user-4.jpg",
         "name": "Joyann Chestle",
-        "text": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+        "text": "EV's can also use regenerative braking, making them more energy efficient",
         "rating": 2
     },
     {
         "id": 6,
         "image": "https://i.postimg.cc/gj8n7D37/user-5.jpg",
         "name": "Jelene Dumphrey",
-        "text": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+        "text": "Taking a lot of road trips recently and I find it interesting that with all the hype about how fast Teslas are, they’re consistently doing like 10mph BELOW the speed limit.",
         "rating": 1
     },
     {
         "id": 7,
         "image": "https://i.postimg.cc/rmHbKG0Q/user-6.jpg",
         "name": "Archy Reeman",
-        "text": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+        "text": "Recycling batteries check so you're including the carbon footprint when the batteries are part of the car but the usage of the gasoline to run the car isn't included in this scenario so you should factor that in",
         "rating": 3
     },
     {
         "id": 8,
         "image": "https://i.postimg.cc/Bvn4Fgb0/user-7.jpg",
         "name": "Zorana Alfonsetto",
-        "text": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+        "text": "Solid State batteries...that should revolutionize energy storage for years to come.",
         "rating": 4
     },
     {
         "id": 9,
         "image": "https://i.postimg.cc/vTfsy2qW/user-8.jpg",
         "name": "Marcello Vanyukhin",
-        "text": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+        "text": "I have had the same car for 23 years, it is the first and it will be the only one, I keep it to work properly and I have no problem, this is also ecological!",
         "rating": 1
     },
     {
         "id": 10,
         "image": "https://i.postimg.cc/s2jDcznb/user-9.jpg",
         "name": "Vally McChruiter",
-        "text": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+        "text": "For me in the perfect world there would be more electric cars on the road overall but that would mean l that gas cars are more special and for people who like them and can be used without any limitaion",
         "rating": 3
     }
 ]

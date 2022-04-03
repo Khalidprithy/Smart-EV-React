@@ -20,13 +20,15 @@
 .book-btn{
     border: 1px solid gray;
     padding: 5px 10px;
-    background-color: orange;
+    background-color: #AAB7B8;
     border-radius: 5px;
     font-weight: 600;
 }
 
 .book-btn:hover{
     border-radius: 20px;
+    background-color:#273746;
+    color: whitesmoke;
 }
 
 .home-reviews{
@@ -38,6 +40,38 @@
 
 .user-review-title{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+.show-btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.show-all-btn{
+    border: 1px solid gray;
+    padding: 5px 10px;
+    background-color: #AAB7B8;
+    border-radius: 5px;
+    font-weight: 600;
+
+}
+
+.show-all-btn:hover{
+    border-radius: 20px;
+    background-color:#273746;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 576px) {
+    .home-reviews{
+        grid-template-columns: 1fr;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .home-reviews{
+        grid-template-columns: repeat(2, 1fr);
+    }
     
 }
