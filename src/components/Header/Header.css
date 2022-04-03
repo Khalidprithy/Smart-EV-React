@@ -1,0 +1,29 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 80px;
+    background-color: #808B96;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.nav-link{
+    padding: 0 10px;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.active-link{
+    padding: 0 10px;
+    font-size: 18px;
+    color:#F4F6F6;
+    font-weight: 600;
+}
