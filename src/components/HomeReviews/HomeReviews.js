@@ -15,4 +15,4 @@ const HomeReviews = ({ review }) => {
     );
 };
 
-export default HomeReviews; <h4>Reviews</h4>
+export default HomeReviews;
