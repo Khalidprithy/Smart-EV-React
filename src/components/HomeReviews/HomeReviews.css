@@ -1,0 +1,40 @@
+.review-card{
+    /* border: 1px solid gainsboro; */
+    width: 250px;
+    height: 230px;
+    padding-left: 10px;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.review-card:hover{
+    box-shadow:10px 10px 20px 10px #bdbcbc;
+}
+
+.user-info{
+    display:flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.user-info img{
+    height: 30px;
+    border-radius: 50%;
+}
+
+.user-info h6{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.review-text{
+    font-size: 12px;
+    padding: 10px;
+}
+
+.rating{
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+}

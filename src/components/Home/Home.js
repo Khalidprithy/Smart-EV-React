@@ -1,19 +1,41 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import HomeIntro from '../HomeIntro/HomeIntro';
+import HomeReviews from '../HomeReviews/HomeReviews';
+import Review from '../Review/Review';
 import './Home.css'
 
 const Home = () => {
+    const [reviews, setReviews] = useState([]);
+    console.log(reviews);
+
+    useEffect(() => {
+        fetch('review.json')
+            .then(res => res.json())
+            .then(data => setReviews(data))
+    }, [])
+
+
     return (
         <div>
-            <div className='home-intro'>
-                <div>
-                    <img className='intro-img' src="https://img.freepik.com/free-vector/electric-car-charging-station-front-view-electric-car-silhouette-with-green-glowing-dark-background-ev-concept_148087-350.jpg" alt="" />
-                </div>
-                <div className='info-text'>
-                    <h2>Best EV in Town <br /> + Smart features</h2>
-                    <p>Electric and hybrid vehicles are associated with green technologies and a reduction in greenhouse emissions due to their low emissions of greenhouse gases and fuel-economic benefits over gasoline and diesel vehicles.</p>
-                    <button className='book-btn'>Prebook</button>
-                </div>
+            <HomeIntro></HomeIntro>
+            <h4 className='user-review-title'>User Reviews</h4>
+            <div className='home-reviews'>
+                {
+                    reviews.map(review => <HomeReviews
+                        key={review.id}
+                        review={review}
+                    ></HomeReviews>)
+                }
             </div>
+            <div>
+                {
+                    reviews.map(review => <Review
+                        key={review.id}
+                        review={review}
+                    ></Review>)
+                }
+            </div>
+
         </div>
     );
 };

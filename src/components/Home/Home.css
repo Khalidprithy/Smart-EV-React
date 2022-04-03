@@ -28,3 +28,16 @@
 .book-btn:hover{
     border-radius: 20px;
 }
+
+.home-reviews{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 10px 20px;
+}
+
+.user-review-title{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
