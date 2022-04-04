@@ -1,88 +1,145 @@
-import React, { PureComponent } from 'react';
-import {
-    ComposedChart,
-    Line,
-    Area,
-    Bar,
-    XAxis,
-    YAxis,
-    CartesianGrid,
-    Tooltip,
-    Legend,
-    Scatter,
-    ResponsiveContainer,
-} from 'recharts';
+import React from 'react';
+import './Chart.css'
+import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
+
 
 const data = [
     {
-        name: 'Page A',
-        uv: 590,
-        pv: 800,
-        amt: 1400,
-        cnt: 490,
+        name: 'EV Electra',
+        month: 'Jan',
+        price: 2400,
+        sells: 2400,
     },
     {
-        name: 'Page B',
-        uv: 868,
-        pv: 967,
-        amt: 1506,
-        cnt: 590,
+        name: 'Super Bolt',
+        month: 'Feb',
+        price: 1398,
+        sells: 2210,
     },
     {
-        name: 'Page C',
-        uv: 1397,
-        pv: 1098,
-        amt: 989,
-        cnt: 350,
+        name: 'Bullet EV',
+        month: 'Mar',
+        price: 9800,
+        sells: 8290,
     },
     {
-        name: 'Page D',
-        uv: 1480,
-        pv: 1200,
-        amt: 1228,
-        cnt: 480,
+        name: 'EV prime',
+        month: 'Api',
+        price: 3908,
+        sells: 2000,
     },
     {
-        name: 'Page E',
-        uv: 1520,
-        pv: 1108,
-        amt: 1100,
-        cnt: 460,
+        name: 'Smart EV',
+        month: 'May',
+        price: 4800,
+        sells: 2181,
     },
     {
-        name: 'Page F',
-        uv: 1400,
-        pv: 680,
-        amt: 1700,
-        cnt: 380,
+        name: 'EV Lite',
+        month: 'June',
+        price: 3800,
+        sells: 2500,
+    },
+    {
+        name: 'EV city',
+        month: 'July',
+        price: 4300,
+        sells: 2100,
+    },
+];
+
+const data2 = [
+    {
+        name: 'EV Electra',
+        month: 'Jan',
+        price: 2400,
+        sells: 2500,
+    },
+    {
+        name: 'Super Bolt',
+        month: 'Feb',
+        price: 2398,
+        sells: 2210,
+    },
+    {
+        name: 'Bullet EV',
+        month: 'Mar',
+        price: 9800,
+        sells: 8290,
+    },
+    {
+        name: 'EV prime',
+        month: 'Api',
+        price: 5908,
+        sells: 2000,
+    },
+    {
+        name: 'Smart EV',
+        month: 'May',
+        price: 4800,
+        sells: 5181,
+    },
+    {
+        name: 'EV Lite',
+        month: 'June',
+        price: 3800,
+        sells: 4500,
+    },
+    {
+        name: 'EV city',
+        month: 'July',
+        price: 5300,
+        sells: 3100,
     },
 ];
 
 const Chart = () => {
     return (
-        <ResponsiveContainer width="100%" height="100%">
-            <ComposedChart
-                width={500}
-                height={400}
-                data={data}
-                margin={{
-                    top: 20,
-                    right: 20,
-                    bottom: 20,
-                    left: 20,
-                }}
-            >
-                <CartesianGrid stroke="#f5f5f5" />
-                <XAxis dataKey="name" scale="band" />
-                <YAxis dataKey='amt' />
-                <Tooltip />
-                <Legend />
-                <Area type="monotone" dataKey="amt" fill="#8884d8" stroke="#8884d8" />
-                <Bar dataKey="pv" barSize={20} fill="#413ea0" />
-                <Line type="monotone" dataKey="uv" stroke="#ff7300" />
-                <Scatter dataKey="cnt" fill="red" />
-            </ComposedChart>
-        </ResponsiveContainer>
+        <div className='charts'>
+            <div>
+                <LineChart
+                    width={400}
+                    height={200}
+                    data={data}
+                >
+                    <CartesianGrid strokeDasharray="3 3"></CartesianGrid>
+                    <XAxis dataKey='name'></XAxis>
+                    <YAxis dataKey='price'></YAxis>
+                    <Tooltip></Tooltip>
+                    <Line type="monotone" dataKey="price" stroke="#8884d8" activeDot={{ r: 8 }} />
+                    <Line type="monotone" dataKey="sells" stroke="#82ca9d" />
+
+                </LineChart>
+
+            </div>
+            <div>
+                <BarChart
+                    width={400}
+                    height={200}
+                    data={data}
+                    margin={{
+                        top: 5,
+                        right: 30,
+                        left: 20,
+                        bottom: 5,
+                    }}
+                >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="name" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="price" fill="#8884d8" />
+                    <Bar dataKey="sells" fill="#82ca9d" />
+                </BarChart>
+            </div>
+            <div>
+                <PieChart width={300} height={300}>
+                    <Pie data={data} dataKey="price" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
+                    <Pie data={data2} dataKey="sells" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
+                </PieChart>
+            </div>
+        </div>
     );
 };
 
