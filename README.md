@@ -1,22 +1,22 @@
 
 # Smart EV 
-This is a reactjs app for a upcoming Electric Vehicle 
+This is a ReactJS app for a upcoming Electric Vehicle 
 
 
 ## 🔗 Links
 [Netlify](https://smart-ev.netlify.app/Chart)
 
 ## Documentation
-- I have build this web app using reactjs. 
-- In the home page you will see a section about the introduction of the EV. You can also Prebook your next EV here. After that there is a review section. If clicked on show all review it will take you to a page where you can see all the reviews. In the chart section you can see all the informantion about price and sells in three different chart.
+- I have build this web app using ReactJS. 
+- In the home page you will see a section about the introduction of the EV. You can also Prebook your next EV here. After that there is a review section. If clicked on show all review it will take you to a page where you can see all the reviews. In the chart section you can see all the information about price and sells in three different chart.
 ## Features used
 - react-router-dom
 - react icon
 - rechart
 
-- This is a SPA website. I have used react router for routing uesr to different page.
+- This is a SPA website. I have used react router for routing user to different page.
 - See all review is redirect with use navigation to navigate user to Review section of the website. 
-- In the about page I have answered two of the impontent question
+- In the about page I have answered two of the important question
 
 
 ## Color Reference
